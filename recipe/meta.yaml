@@ -1,18 +1,18 @@
 {% set name = "flashgeotext" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 99d2e525725701e62d25eed7afe9d948b707f0c4fb6647749a5e929f6050d5b4
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 5d5d7eaab99f2f707adf597e89d9216bfb9b3b0a5f0c7fc9996eee8ddc208dd1
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -33,11 +33,11 @@ test:
     - flashgeotext
 
 about:
-  home: "https://flashgeotext.iwpnd.pw"
+  home: https://flashgeotext.iwpnd.pw
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "Extract and count countries and cities (+their synonyms) from text"
+  summary: Extract and count countries and cities (+their synonyms) from text
   doc_url: https://flashgeotext.iwpnd.pw
   dev_url: https://github.com/iwpnd/flashgeotext
 
