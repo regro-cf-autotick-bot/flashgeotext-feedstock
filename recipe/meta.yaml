@@ -1,5 +1,5 @@
 {% set name = "flashgeotext" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ded2447ba8764ab16d442bd978a096c48e32f88d56426d7357f221717e703648
+  sha256: 6779e89145f08758acbc79dbf85151df5161cee2a741863a476969c80a7973c1
 
 build:
   number: 0
