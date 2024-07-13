@@ -37,12 +37,12 @@ test:
     - pip check
 
 about:
-  home: https://flashgeotext.iwpnd.pw
+  home: https://github.com/iwpnd/flashgeotext/
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: Extract and count countries and cities (+their synonyms) from text
-  doc_url: https://flashgeotext.iwpnd.pw
+  doc_url: https://github.com/iwpnd/flashgeotext
   dev_url: https://github.com/iwpnd/flashgeotext
 
 extra:
