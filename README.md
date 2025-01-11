@@ -3,7 +3,7 @@ About flashgeotext-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flashgeotext-feedstock/blob/main/LICENSE.txt)
 
-Home: https://flashgeotext.iwpnd.pw
+Home: https://github.com/iwpnd/flashgeotext/
 
 Package license: MIT
 
@@ -11,7 +11,7 @@ Summary: Extract and count countries and cities (+their synonyms) from text
 
 Development: https://github.com/iwpnd/flashgeotext
 
-Documentation: https://flashgeotext.iwpnd.pw
+Documentation: https://github.com/iwpnd/flashgeotext
 
 Current build status
 ====================
